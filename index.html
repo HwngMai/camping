@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- LINK FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@300;400;700&family=Tinos&display=swap"
+      rel="stylesheet"
+    />
+    <!-- LINK FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header__logo">
+        <img src="./Image/logoicon.png" alt="logo" />
+      </div>
+      <div class="header__nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Destination</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="carousel"></div>
+    <div class="activi">
+      <div class="activi__para">
+        <img src="./Image/Group 313.png" alt="" />
+        <h2>Explore Destinations & Activities</h2>
+      </div>
+      <div class="activi__gallery">
+        <div class="activi__gallery--item">
+          <i
+            id="heart"
+            href="#heart"
+            onclick="changeColor('heart');  true;"
+            class="fa fa-heart"
+          ></i>
+          <img src="./Image/product1.png" alt="" />
+          <h3>Tricker Reed Ranch</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, eius
+            ad delectus, repudiandae cupiditate distinctio nam unde labore
+            corrupti at alias voluptate ipsa corporis laboriosam voluptas cum
+            consectetur sint deserunt omnis. Quis, officiis accusantium? Facilis
+            exercitationem aut eveniet at aspernatur quae, quisquam natus cumque
+            quaerat culpa asperiores dolorum omnis, dolore, sint distinctio
+            commodi hic obcaecati. Rerum voluptas ipsum blanditiis dicta optio
+            ullam aperiam, quibusdam eveniet accusamus possimus at perferendis
+            quaerat consequuntur nam, dolorem iusto officia similique cupiditate
+            reiciendis porro dolore est deleniti, reprehenderit veritatis?
+            Accusantium, quae. Alias voluptatem officia odit culpa repudiandae.
+            Deleniti tenetur, recusandae quo doloremque cumque rem sequi.
+          </p>
+          <button>Read more</button>
+        </div>
+        <div id="gal1" class="activi__gallery--item">
+          <i
+            id="heart2"
+            href="#heart"
+            onclick="changeColor('heart2');  true;"
+            class="fa fa-heart"
+          ></i>
+          <img src="./Image/product4.png" alt="" />
+          <h3>Tricker Reed Ranch</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
+            soluta.
+          </p>
+          <button onclick="changeHeight('gal1');  true;">Read more</button>
+        </div>
+        <div class="activi__gallery--item">
+          <i
+            id="heart3"
+            href="#heart"
+            onclick="changeColor('heart3');  true;"
+            class="fa fa-heart"
+          ></i>
+          <img src="./Image/product4.png" alt="" />
+          <h3>Tricker Reed Ranch</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
+            soluta.
+          </p>
+          <button>Read more</button>
+        </div>
+        <div class="activi__gallery--item">
+          <i
+            id="heart4"
+            href="#heart"
+            onclick="changeColor('heart4');  false;"
+            class="fa fa-heart"
+          ></i>
+          <img src="./Image/product5.png" alt="" />
+          <h3>Tricker Reed Ranch</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
+            soluta.
+          </p>
+          <button>Read more</button>
+        </div>
+      </div>
+      <button class="main__button">View all</button>
+    </div>
+    <div class="contact">
+      <div class="contact__item">
+        <img src="./Image/homeicon.png" alt="" />
+      </div>
+      <div class="contact__item">
+        <div class="contact__item--para">
+          <h2>Let's Stay in Touch</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
+            libero repellendus est eaque corrupti id molestias maiores,
+            distinctio nobis architecto.
+          </p>
+        </div>
+        <div class="contact__link">
+          <div class="contact__item--link">
+            <h3>Download Our App</h3>
+            <a href="#"
+              ><img src="./Image/download-on-the-app-store-apple-1.png" alt=""
+            /></a>
+            <a href="#"><img src="./Image/google-play-badge-1.png" alt="" /></a>
+          </div>
+          <div class="contact__item--link">
+            <h3>Follow Us</h3>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer__item footer__bigitem">
+        <h3>Hipcamp is everywhere you want to camp.</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quos,
+          fugiat omnis cumque natus earum dolor id quaerat quia consectetur
+          magnam veniam. Sint distinctio eius hic numquam id voluptatem error.
+        </p>
+      </div>
+      <div class="footer__item">
+        <h3>Let us help you</h3>
+        <ul>
+          <a href="#"><li>About Us</li></a>
+          <a href="#"><li>Rules </li></a>
+          <a href="#"><li>Policies</li></a>
+          <a href="#"><li>Accessibility</li></a>
+          <a href="#"><li>Media Center</li></a>
+        </ul>
+
+      </div>
+      <div class="footer__item">
+        <h3>Plan with us</h3>
+        <ul>
+          <a href="#"><li>Find Trip</li></a>
+          <a href="#"><li>Build Trip</li></a>
+          <a href="#"><li>Buy a Pass</li></a>
+          <a href="#"><li>Enter a Lottery</li></a>
+        </ul>
+
+      </div>
+      <div class="footer__item">
+        <h3>Let us help you</h3>
+        <ul>
+          <a href="#"><li>Your Account</li></a>
+          <a href="#"><li>Your Reservations</li></a>
+          <a href="#"><li>Contact Us</li></a>
+          <a href="#"><li>Help Center</li></a>
+          <a href="#"><li>Submit Feedback</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__para">
+      <p> © 2022 Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+    <script>
+      // HEART BUTTON
+      function changeColor(id) {
+        let a = document.getElementById(id).style.color;
+        document.getElementById(id).style.color = "var(--3rd-color)";
+        if (a === "var(--3rd-color)") {
+          document.getElementById(id).style.color = "blue";
+        }
+      }
+    </script>
+  </body>
+</html>
